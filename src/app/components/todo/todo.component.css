@@ -1,0 +1,51 @@
+.actions {
+  width: 20px;
+}
+
+th {
+  border: none;
+}
+
+td {
+  border: none;
+}
+
+.delete {
+  background-color: red;
+}
+
+.header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.card {
+  border: none;
+}
+
+.center{
+  text-align: center;
+}
+
+.todo-table {
+  width: 75%;
+  margin: 0 auto;
+}
+
+h2,
+.ingress {
+  text-align: center;
+}
+
+th {
+  background-color: grey;
+}
+
+.submit-buttons {
+  display: inline;
+  padding: 5px;
+}
+
+table {
+  margin-bottom: 100px;
+}

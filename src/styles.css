@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.btn,
+.btn:disabled {
+  background-color: black !important;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  background-color: grey !important;
+  box-shadow: none !important;
+}
