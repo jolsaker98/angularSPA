@@ -12,9 +12,6 @@ export class TodoService {
 
   constructor(private http: HttpClient) { }
 
-  private todoUrl = "/api"
-  private counter = 0
-
   getTodos(): Observable<Todo[]>{
     console.log("Test1");
     return this.http.get<Todo[]>(`${this.baseUrl}`)
